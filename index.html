@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Norbergs Maskin & Service – maskiner, service, reparation, reservdelar och redskap." />
+  <title>Norbergs Maskin & Service</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topline"><span>NORBERGS MASKIN & SERVICE</span><span>MASKINER • SERVICE • REPARATION</span></div>
+
+  <header class="header">
+    <button class="logo reset-button" data-view="home" aria-label="Till startsidan"><img src="norbergs-logo.png" alt="Norbergs" /></button>
+    <button class="hamburger" id="hamburger" aria-label="Öppna meny" aria-expanded="false"><svg class="menu-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav class="nav" id="nav" aria-label="Huvudmeny">
+      <button class="nav-link" data-view="home">Start</button>
+      <button class="nav-link" data-view="machines">Maskiner</button>
+      <button class="nav-link" data-view="service">Service</button>
+      <button class="nav-link" data-view="sell">Sälj din maskin</button>
+      <button class="nav-link" data-view="about">Om oss</button>
+      <button class="nav-link" data-view="contact">Kontakt</button>
+      <button class="quote" data-view="service">Begär offert</button>
+    </nav>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer>
+    <div class="footer-main">
+      <button class="logo reset-button" data-view="home"><img src="norbergs-logo.png" alt="Norbergs"></button>
+      <span>MASKINER • SERVICE • REPARATION</span>
+      <span class="footer-contact">0123 - 45 67 8 • info@norbergs.se</span>
+    </div>
+    <div class="footer-bottom">© 2026 NORBERGS MASKIN & SERVICE AB</div>
+  </footer>
+
+  <div class="mobile-actions" aria-label="Snabbkontakt">
+    <a href="tel:+4612345678"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.8 3.5 9.5 7l-1.8 2.2c1.3 2.5 3.3 4.5 5.8 5.8l2.2-1.8 3.5 2.7-1 3.1c-.3.8-1.1 1.3-2 1.2C9.4 19.3 4.7 14.6 3.8 7.8c-.1-.9.4-1.7 1.2-2l1.8-.3Z"/></svg><span>Ring oss</span></a>
+    <button data-view="contact"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4zM4 7l8 6 8-6"/></svg><span>Förfrågan</span></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
